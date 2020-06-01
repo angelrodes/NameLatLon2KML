@@ -2,6 +2,7 @@
 Plot data from a spreadsheet (Name-Latitude-Longitude columns) in Google Earth.
 
 Angel Rodes, 2020
+angelrodes.com
 
 NameLatLon2KML is a simple and fast tool to plot in Google Earth a set of locations from a spreadsheet.
 
