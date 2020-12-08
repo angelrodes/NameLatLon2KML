@@ -25,7 +25,7 @@ This version allows an extra column with the text that will appear when clicking
 Label  | Lat | Lon | Hidden text
 ------------- | -------------  | -------------  | -------------
  `1.3ka` |	`28.9` |	`-82.8` |	`Sample1  <br /> [Be-10]= 70000 +/- 3000 atoms/g <br /> Age(LSDn)= 1000 +/- 60 (98) years`
-  `1.4ka` |	`29.9` |	`23.8` |	`Sample2  blah blah blah`
+ `1.4ka` |	`29.9` |	`23.8` |	`Sample2  blah blah blah`
     ... | ... | ... | ...
 
 
