@@ -14,8 +14,8 @@ Site names should not contain spaces.
 
 Label  | Latitude | Longitude
 ------------- | -------------  | -------------  
-Sample1 |	28.9 |	-82.8 
-Sample2 |	29.9 |	-81.8 
+`Sample1` |	`28.9` |	`-82.8` 
+`Sample2` |	`29.9` |	`-81.8` 
   ... | ... | ...
 
 ## KML_from_name-lat-lon-description.sh
@@ -24,7 +24,9 @@ This version allows an extra column with the text that will appear when clicking
 
 Label  | Lat | Lon | hidden text
 ------------- | -------------  | -------------  | -------------
- 1.3ka |	28.9 |	-82.8 |	`Sample1  <br /> [Be-10]= 70000 +/- 3000 atoms/g <br /> Age(LSDn)= 1000 +/- 60 (98) years`
+ `1.3ka` |	`28.9` |	`-82.8` |	`Sample1  <br /> [Be-10]= 70000 +/- 3000 atoms/g <br /> Age(LSDn)= 1000 +/- 60 (98) years`
+  `1.4ka` |	`29.9` |	`23.8` |	`Sample2  blah blah blah`
+    ... | ... | ... | ...
 
 
 
