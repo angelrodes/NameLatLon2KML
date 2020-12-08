@@ -1,4 +1,14 @@
 #!/bin/bash
+# KML_from_name-lat-lon-description
+#
+# Angel Rodes, 2020
+#
+# This script get the Name, Latitude, Longitude mand Hidden text columns form the clipboard and write a KML file using this data. The KML file is opened with the default program, usually Google Earth
+# 
+# Requirements:
+#   - xsel
+#   - Googel Earth
+#
 cd ~
 PORTAPAPELES=$(xsel --clipboard)
 xsel --clipboard |sed 's/ /_/g' |sed 's/\t/ /g' | grep -v '^ *$' > ~/clipboard.txt
